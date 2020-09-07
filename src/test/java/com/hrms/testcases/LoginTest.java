@@ -21,7 +21,7 @@ public class LoginTest extends CommonMethods{
 		click(login.loginButton);
 		
 		
-		AssertJUnit.assertTrue(dash.welcomeMsg.isDisplayed());
+		Assert.assertTrue(dash.welcomeMsg.isDisplayed());
 		
 
 	}
@@ -32,7 +32,7 @@ public class LoginTest extends CommonMethods{
 		sendText(login.passwordTextBox, password);
 		click(login.loginButton);
 		
-		AssertJUnit.assertEquals(login.spanMsg.getText(), errorMsg);
+		Assert.assertEquals(login.spanMsg.getText(), errorMsg);
 		
 		
 	}
@@ -46,6 +46,40 @@ public class LoginTest extends CommonMethods{
 				};
 		return data;
 		
+	}
+	
+	@Test(dataProvider = "getUserAddingData")
+	public void addEmployee(String firstName, String lastName, String usName, String pass) throws InterruptedException {
+		sendText(login.userNameTextBox, ConfigsReader.getPropValue("username"));
+		sendText(login.passwordTextBox, ConfigsReader.getPropValue("password"));
+		click(login.loginButton);
+		waitForVisability(dash.welcomeMsg);
+		
+		click(dash.pimLinkBtn);
+		click(pim.addEmpBtn);
+		
+		sendText(addEmp.firstNameField, firstName);
+		sendText(addEmp.lastName, lastName);
+		click(addEmp.createLoginDetailsCheckbox);
+		sendText(addEmp.userName, usName);
+		sendText(addEmp.userPassword, pass);
+		sendText(addEmp.confirmPassword, pass);
+		click(addEmp.saveButton);
+		waitForVisability(personalPage.profilePictureText);
+		Assert.assertEquals(personalPage.profilePictureText.getText(), firstName + " " + lastName);
+		
+	}
+	
+	@DataProvider
+	public Object[][] getUserAddingData(){
+		Object[][] object = {
+				{"Nazaret", "Sarkisyan", "NazaretQ8", "G'<r$6%#Nv"},		
+    			{"Nerses", "Vartanian", "NersesX6", "fJ?8V\\!p\\#"},
+    			{"Hakob", "Davidyan", "HakobB8", "hPF@$S3,7`"},
+    			{"Taline", "Kevorkian", "TalineX10", "\";*_8gdB*g"},
+    			{"Lucine", "Mooshian", "Lucine223", "&'njM4^gW2"}
+	};
+		return object;
 	}
 
 }

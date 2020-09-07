@@ -5,7 +5,7 @@
     <classes>
       <class name="com.hrms.testcases.LoginTest">
         <methods>
-          <include name="invalidLogin" invocation-numbers="0 1 2"/>
+          <include name="addEmployee" invocation-numbers="2"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>

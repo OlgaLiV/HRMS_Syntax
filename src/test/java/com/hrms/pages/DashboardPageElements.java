@@ -32,6 +32,8 @@ public class DashboardPageElements extends BaseClass{
 	@FindBy(id = "welcome")
 	public WebElement welcomeMsg;
 	
+	
+	
 	public DashboardPageElements() {
 	
 		PageFactory.initElements(driver, this);

@@ -74,10 +74,16 @@ public class CommonMethods extends PageInitializer {
 	public static void waitForClickability(WebElement element) {
 		getWaitObject().until(ExpectedConditions.elementToBeClickable(element));
 	}
+	
+	public static void waitForVisability(WebElement element) {
+		getWaitObject().until(ExpectedConditions.visibilityOf(element));
+	}
 
 	public static void click(WebElement element) {
 		waitForClickability(element);
 		element.click();
 	}
+	
+	
 
 }
