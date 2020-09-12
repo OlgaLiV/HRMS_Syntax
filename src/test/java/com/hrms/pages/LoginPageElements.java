@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.hrms.testbase.BaseClass;
+import com.hrms.utils.ConfigsReader;
 
 public class LoginPageElements extends BaseClass {
 
@@ -29,5 +30,8 @@ public class LoginPageElements extends BaseClass {
 	public LoginPageElements() {
 		PageFactory.initElements(driver, this);
 	}
+	
+	
+	}
 
-}
+

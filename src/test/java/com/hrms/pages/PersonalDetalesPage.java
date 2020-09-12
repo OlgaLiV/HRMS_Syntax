@@ -8,9 +8,10 @@ import com.hrms.testbase.BaseClass;
 
 public class PersonalDetalesPage extends BaseClass{
 	
-	@FindBy(xpath = "//div[@id = 'profile-pic']/h1")
+	@FindBy(xpath = "//div[@id = 'profile-pic' ]/h1")
 	public WebElement profilePictureText;
 	
+
 	public PersonalDetalesPage() {
 		PageFactory.initElements(driver, this);
 	}

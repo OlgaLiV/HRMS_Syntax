@@ -12,10 +12,10 @@ public class AddEmployeePageElements extends BaseClass {
 	public WebElement firstNameField;
 	
 	@FindBy(xpath = "//input[@id = 'middleName']")
-	public WebElement middleName;
+	public WebElement middleNameField;
 	
 	@FindBy(xpath = "//input[@id = 'lastName']")
-	public WebElement lastName;
+	public WebElement lastNameField;
 	
 	@FindBy(xpath = "//input[@id = 'photofile']")
 	public WebElement chooseFile;

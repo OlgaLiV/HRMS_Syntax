@@ -29,6 +29,9 @@ public class DashboardPageElements extends BaseClass{
 	@FindBy(id = "menu_directory_viewDirectory")
 	public WebElement directoryLinkBtn;
 	
+	@FindBy(id = "menu_pim_viewEmployeeList")
+	public WebElement empListBtn;
+	
 	@FindBy(id = "welcome")
 	public WebElement welcomeMsg;
 	

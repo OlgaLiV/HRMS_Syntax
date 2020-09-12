@@ -8,15 +8,68 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">74,357</td><td></td><td></td></tr>
+<tr><th colspan="8">Regression Suite</th></tr>
+<tr><td><a href="#t0">Regression Test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">133,398</td><td>regression</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.hrms.testcases.LoginTest</td><td><a href="#m0">addEmployee</a></td><td rowspan="5">1599512083048</td><td rowspan="5">11313</td></tr><tr class="passedeven"><td><a href="#m1">addEmployee</a></td></tr><tr class="passedeven"><td><a href="#m2">addEmployee</a></td></tr><tr class="passedeven"><td><a href="#m3">addEmployee</a></td></tr><tr class="passedeven"><td><a href="#m4">addEmployee</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Regression Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.hrms.testcases.AddEmployeeWithDataProvider</td><td><a href="#m0">addEmployee</a></td><td rowspan="1">1599783128202</td><td rowspan="1">15835</td></tr><tr class="failedodd"><td rowspan="1">com.hrms.testcases.AddMultipleEmployee</td><td><a href="#m1">addMultipleEmp</a></td><td rowspan="1">1599783164605</td><td rowspan="1">20947</td></tr><tr><th colspan="4">Regression Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.hrms.testcases.AddEmployeeWithDataProvider</td><td><a href="#m2">addEmployee</a></td><td rowspan="4">1599783113527</td><td rowspan="4">9101</td></tr><tr class="passedeven"><td><a href="#m3">addEmployee</a></td></tr><tr class="passedeven"><td><a href="#m4">addEmployee</a></td></tr><tr class="passedeven"><td><a href="#m5">addEmployee</a></td></tr><tr class="passedodd"><td rowspan="3">com.hrms.testcases.LoginTest</td><td><a href="#m6">invalidLogin</a></td><td rowspan="3">1599783191211</td><td rowspan="3">489</td></tr><tr class="passedodd"><td><a href="#m7">invalidLogin</a></td></tr><tr class="passedodd"><td><a href="#m8">invalidLogin</a></td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.hrms.testcases.LoginTest#addEmployee</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Taline</td><td>Kevorkian</td><td>TalineX10</td><td>&quot;;*_8gdB*g</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.hrms.testcases.LoginTest#addEmployee</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Hakob</td><td>Davidyan</td><td>HakobB8</td><td>hPF@$S3,7`</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.hrms.testcases.LoginTest#addEmployee</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Nazaret</td><td>Sarkisyan</td><td>NazaretQ8</td><td>G&apos;&lt;r$6%#Nv</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.hrms.testcases.LoginTest#addEmployee</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Lucine</td><td>Mooshian</td><td>Lucine223</td><td>&amp;&apos;njM4^gW2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.hrms.testcases.LoginTest#addEmployee</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Nerses</td><td>Vartanian</td><td>NersesX6</td><td>fJ?8V\!p\#</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Regression Test</h2><h3 id="m0">com.hrms.testcases.AddEmployeeWithDataProvider#addEmployee</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Taline</td><td>Kevorkian</td><td>Talined1674</td><td>@#;*_8gdB*g</td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id = &apos;firstName&apos;]&quot;}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Alexandrs-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1c91:f1fe:6467:492%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/nl/dh9v0zpn6zv...}, goog:chromeOptions: {debuggerAddress: localhost:50513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 27cd3c3b383833989440ee48729f4b24
+*** Element info: {Using=xpath, value=//input[@id = &apos;firstName&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.clear(Unknown Source)
+	at com.hrms.utils.CommonMethods.sendText(CommonMethods.java:30)
+	at com.hrms.testcases.AddEmployeeWithDataProvider.addEmployee(AddEmployeeWithDataProvider.java:22)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.hrms.testcases.AddMultipleEmployee#addMultipleEmp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id = &apos;profile-pic&apos; ]/h1&quot;}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Alexandrs-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1c91:f1fe:6467:492%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/nl/dh9v0zpn6zv...}, goog:chromeOptions: {debuggerAddress: localhost:50567}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 83be3af9859fcca1d88392ad9d4c3473
+*** Element info: {Using=xpath, value=//div[@id = &apos;profile-pic&apos; ]/h1}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getText(Unknown Source)
+	at com.hrms.testcases.AddMultipleEmployee.addMultipleEmp(AddMultipleEmployee.java:42)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.hrms.testcases.AddEmployeeWithDataProvider#addEmployee</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Hakob</td><td>Davidyan</td><td>Hakobx1tr3</td><td>hPF@$S3&amp;7*</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.hrms.testcases.AddEmployeeWithDataProvider#addEmployee</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Lucine</td><td>Mooshian</td><td>LucineE25Rt415</td><td>&amp;&apos;njM4^gW2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.hrms.testcases.AddEmployeeWithDataProvider#addEmployee</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Nazaret</td><td>Sarkisyan</td><td>NazaretS4z11</td><td>G&apos;&lt;r$6%#Nv</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.hrms.testcases.AddEmployeeWithDataProvider#addEmployee</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>Nerses</td><td>Vartanian</td><td>Nersesw1e2</td><td>fJ?8V\!p\#</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.hrms.testcases.LoginTest#invalidLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td></td><td>Hum@nhrm123</td><td>Username cannot be empty</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.hrms.testcases.LoginTest#invalidLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Admin</td><td></td><td>Password cannot be empty</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.hrms.testcases.LoginTest#invalidLogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Admin</td><td>wertyui12</td><td>Invalid credentials</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

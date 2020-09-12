@@ -1,0 +1,17 @@
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/pages/LoginPageElements.java
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/testbase/BaseClass.java
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/testbase/PageInitializer.java
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/testcases/AddMultipleEmployee.java
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/utils/ExcelUtility.java
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/pages/PimPage.java
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/pages/AddEmployeePageElements.java
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/pages/EmployeeListPage.java
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/pages/PersonalDetalesPage.java
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/utils/Listeners.java
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/testcases/LoginTest.java
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/utils/Constants.java
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/utils/ConfigsReader.java
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/testcases/AddEmployeeWithDataProvider.java
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/pages/DashboardPageElements.java
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/utils/CommonMethods.java
+/Users/alexandrrudenko/eclipse-workspace/SyntaxHrms/src/test/java/com/hrms/testcases/WritingIntoExcel.java
