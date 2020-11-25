@@ -6,12 +6,12 @@ com/hrms/pages/AddEmployeePageElements.class
 com/hrms/testcases/AddMultipleEmployee.class
 com/hrms/testbase/PageInitializer.class
 com/hrms/pages/DashboardPageElements.class
-com/hrms/utils/ConfigsReader.class
 com/hrms/utils/Listeners.class
+com/hrms/utils/ConfigsReader.class
 com/hrms/testbase/BaseClass.class
 com/hrms/utils/ExcelUtility.class
 com/hrms/testcases/LoginTest.class
 com/hrms/pages/PersonalDetalesPage.class
 com/hrms/pages/EmployeeListPage.class
-com/hrms/pages/LoginPageElements.class
 com/hrms/utils/CommonMethods.class
+com/hrms/pages/LoginPageElements.class
